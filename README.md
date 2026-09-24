@@ -1,50 +1,21 @@
-# Visionquantech Builder
+# VisionQuantech Website Builder
 
-An enterprise-grade solution engineered for high performance.
+**Desktop GUI app (tkinter)** — visual website builder ("VisionQuantech Pro"). Multi-page builder with color/theme pickers, HTML/CSS/JS template stack selection, live preview, export to HTML/ZIP.
 
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+## Run
 
-## 🚀 Overview
+```bash
+python VisionQuantech_Website_Builder.py
+```
 
-Welcome to the **Visionquantech Builder** repository. This project is built to deliver a robust and scalable solution tailored to modern development standards.
+## Deps
 
-## ✨ Features
+```bash
+pip install Pillow
+```
 
-- **High Performance:** Optimized for speed and efficiency.
-- **Scalable Architecture:** Designed to grow with your needs.
-- **Clean Codebase:** Follows best practices and industry standards.
-- **Secure by Default:** Engineered with security in mind.
+## Notes
 
-## 🛠️ Prerequisites
-
-Ensure you have the following installed in your environment before proceeding:
-- Appropriate runtime/compiler for `Python`
-- Standard development tools
-
-## 📦 Installation
-
-Follow standard installation steps for `Python` to set up the project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Shivay00001/visionquantech_builder.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd visionquantech_builder
-   ```
-3. Install dependencies according to the standard `Python` ecosystem.
-
-## 💻 Usage
-
-Run the project using standard execution commands for `Python`. Ensure all environment variables and configurations are set prior to execution.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-## 📝 License
-
-This project is licensed under standard terms.
+- Boot verified under `xvfb-run` (main window opens, no traceback).
+- `run_builder.bat` is the Windows launcher equivalent.
+- Desktop app — needs a display; not a web service.
